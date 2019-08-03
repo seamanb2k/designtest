@@ -1,0 +1,170 @@
+*{
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:linear-gradient(#FFFFFF,#7966ff);
+}
+.container{
+    width:650px;
+    height:100%;
+    border-radius:60px;
+    background: #ffffff;
+    padding:15px;
+    box-shadow: 0 0 10px 2px #ddd;
+    margin-top:20px;
+
+}
+
+header{
+    background:#7966ff;
+    height: 350px;
+    width:600px;
+    margin-top: 5px;
+    border-radius: 60px 60px 15px 10px;
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:100px 400px 100px;
+    padding:20px;
+}
+p.white{
+color:white;
+}
+
+.top{
+    width:400px;
+    height:50px;
+    background:#ffffff;
+    border-radius: 30px;
+    margin:0 auto;
+    padding-top:-90px;
+}
+
+.avatar{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:2px solid white;
+    margin-left:35px;
+    
+}
+
+table{
+    margin-right:350px;
+    margin-top:-60px;
+    color:#ffffff; 
+    
+}
+/* controls the center-card view for payment options */
+#center{
+    width:500px;
+    height:100%;
+    position:relative;
+    top:-150px;
+}
+
+
+.cards1{
+    display:grid;
+    grid-template-columns:100px 100px 100px 150px;
+    grid-template-rows:auto auto auto auto;
+    padding:20px;
+    background:#ffffff;
+    border-radius: 10px;
+    grid-gap:10px;
+    
+    
+}
+
+  section.cards{
+    display:grid;
+    grid-template-columns:100px 100px 100px 150px;
+    grid-template-rows:auto auto auto auto;
+    padding:20px;
+    background:#ffffff;
+    border-radius: 0 0 10px 10px;
+    grid-gap:10px;
+    border-top:1px solid rgb(173, 169, 169);
+    margin-top:-30px;
+  }
+
+  .img_avatar{
+    position:relative;
+    top:-200px;
+    width:100%;
+    
+   
+
+  }
+
+  .side{
+     
+      padding-left:70px;
+      
+      
+  }
+  aside{
+      width:auto;
+      height:auto;
+      background:#f1eefc ;
+      border-radius:200px;
+      padding:4px;
+  }
+  .aside2{
+    width:auto;
+    height:auto;
+    background:#f1eefc ;
+    border-radius:200px;
+    padding:4px;
+}
+
+  #faint{
+      color:gray;
+  }
+
+  .enlarge{
+      width:40px;
+      height:40px;
+  }
+
+  .img-responsive{
+      height:40px;
+      width:40px
+  }
+  article.inner-content{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, auto);   
+    border-radius: 50%;
+  }
+  
+  article{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+  
+    
+  }
+
+  .card-side{
+    padding-top:2em;
+     width: 6em;
+   }
+
+   #container2{
+    margin-top:-300px;
+    background:#f1eefc;
+    width:640px;
+    height:600px;
+   margin-bottom:40px;
+   }
+   .cards2{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,auto);
+    padding:20px;
+    border-radius: 10px;
+    grid-gap:10px;
+    padding-top:200px;
+   }
